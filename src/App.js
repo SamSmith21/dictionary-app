@@ -9,7 +9,24 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Samantha Smith</footer>
+        <footer className="App-footer">
+          This page is coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/samantha-smith-5014424b/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Samantha Smith
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/SamSmith21/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open sourced on Github
+          </a>
+        </footer>
       </div>
     </div>
   );
