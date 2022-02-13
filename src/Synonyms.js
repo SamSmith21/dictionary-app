@@ -1,4 +1,3 @@
-import { buildTimeValue } from "@testing-library/user-event/dist/utils";
 import React from "react";
 
 export default function Synonyms(props) {
