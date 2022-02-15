@@ -5,7 +5,7 @@ export default function Example(props) {
     return (
       <div>
         <strong>Example: </strong>
-        <span className="example">{props.example}</span>
+        <span className="example fst-italic">{props.example}</span>
       </div>
     );
   } else {
